@@ -1,0 +1,15 @@
+$TTL 3600 ; Default TTL (Time to Live)
+@       IN      SOA     yet.wiki. admin.yet.wiki. (
+                        2024070101 ; Serial (YYYYMMDDNN format)
+                        3600       ; Refresh
+                        1800       ; Retry
+                        1209600    ; Expire
+                        86400 )    ; Minimum TTL
+
+; yet.wiki
+@       IN      A       89.58.41.211
+@       IN      AAAA    2a03:4000:66:c4a::1
+
+; CNAME record for is.yet.wiki.automated.yet.wiki
+is.yet.wiki.deployed.automatically   IN      CNAME   yet.wiki.
+
