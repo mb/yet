@@ -1,0 +1,4 @@
+is.yet.wiki.deployed.automatically.yet.wiki {
+	root * /srv/yet/is.yet.wiki.deployed.automatically.yet
+	file_server
+}
