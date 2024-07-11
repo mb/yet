@@ -1,8 +1,0 @@
-listen_addrs_ipv4 = ["0.0.0.0"]
-listen_addrs_ipv6 = ["::0"]
-
-[[zones]]
-zone = "yet.wiki"
-zone_type = "Primary"
-file = "/home/yet/yet.wiki/yet.wiki.zone"
-
