@@ -1,5 +1,5 @@
 is.yet.wiki.deployed.automatically.yet.wiki {
-	root * /srv/yet/is.yet.wiki.deployed.automatically.yet
+	root * /srv/yet/is.yet.wiki.deployed.automatically.yet.wiki
 	file_server
 	bind 2a03:4000:66:c4a::1
 	bind 89.58.41.211
