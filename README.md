@@ -33,7 +33,7 @@ Cloudflare DNS is configured with a wildcard to return
 A 89.58.41.211
 AAAA 2a03:4000:66:c4a::1
 ```
-Caddy takes care requesting HTTPS certificate for all subdomains.
+Caddy takes care requesting HTTPS certificate for configured subdomains.
 
 ## Requesting subdomains
 
